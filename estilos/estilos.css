@@ -10,7 +10,7 @@ body {
 
 .navbar{
     font-size: 30px;
-    background-color: black
+    background-color: black !important;
 }
 .navbar-nav li{
     padding-left: 30px;
@@ -323,10 +323,12 @@ footer {
         flex-direction:row;
         margin: 1px;
     }
-    n
-    .navbar-light .navbar-toggler{
-        border-color: rgba(235, 6, 6, 0.5);
+    
+    .navbar-dark .navbar-toggler{
+        color: rgba(255,255,255,.55);
+        border-color: rgb(255 255 255);
     }
+
     .fotoEmpresa img {
         max-width: 100%;
         margin-block-start: 20px;
