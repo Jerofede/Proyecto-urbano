@@ -34,10 +34,6 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-.fotoEmpresa img{
-    max-width: 100%;
-}
 .logo {
     border-radius: 50%;
     width: 150px;
@@ -75,24 +71,6 @@ body {
 
 .ferrum{
     transform: translate(0px, 30px);
-}
-
-.inf {
-    margin-top: 20px;
-    color: black;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: var(--bs-body-font-family);
-}
-.carousel-caption{
-    color: white;
-    font-family: var(--bs-body-font-family);
-    font-weight: bold;
-    font-size: 30px;
-}
-.carousel-caption h4{
-    font-weight: bold;
 }
 
 /* fin de estilos para home */

@@ -1,0 +1,23 @@
+.empresaInf img {
+  max-width: 100%;
+}
+
+.empresaInf p {
+  margin-top: 20px;
+  color: black;
+  padding: 5px;
+  font-family: var(--bs-body-font-family);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.carousel-caption {
+  color: white;
+  font-family: var(--bs-body-font-family);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.carousel-caption h4 {
+  font-weight: bold;
+}
