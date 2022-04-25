@@ -1,0 +1,28 @@
+.entregadas{
+    color: black;
+    font: {
+        family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        size: 30px;
+    }
+    background: {
+        size: 50px;
+        repeat: repeat-x;
+    }
+    text-align:center;
+    width: 875px;
+    line-height: 100px;
+    margin: 25px;
+    border: 10px solid rgb(1, 1, 27);
+    padding: 25px;
+}
+
+.texto {
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 40px;
+    margin: 50px;
+    font-family: 'Indie Flower', cursive;
+}

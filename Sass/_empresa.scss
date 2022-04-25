@@ -1,0 +1,30 @@
+.col {
+    margin: 20px;
+    h4{
+     font-size: 2rem;
+     padding: 30px;
+ }
+
+ }
+.historia {
+    font: {
+        family: var(--bs-body-font-family);
+        size: 18px;
+        weight: bolder;
+        
+    }
+}
+.titulo {
+    font: {
+        family: var(--bs-body-font-family);
+        size: 6rem;
+    }
+    text-align:center;
+    margin: 30px;
+}
+.fotoCol{
+    max-width: 100%;
+}
+.row{
+    align-items: center;
+}

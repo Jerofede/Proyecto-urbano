@@ -1,0 +1,19 @@
+.navbar{
+    font-size: 30px;
+    background-color: black !important;
+}
+.navbar-nav li{
+    padding: {
+        left: 30px;
+        right: 30px;
+    }
+   
+}
+.nav-link.active{
+    color: white;
+    font: {
+        family: var(--bs-body-font-family);
+        size: 30px;
+        weight: 700;
+    }
+}

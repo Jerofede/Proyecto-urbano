@@ -1,0 +1,20 @@
+.contacto {
+    font: {
+        size: 20px;
+        family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    color: white;
+    border: 5px dashed rgb(19, 17, 17);
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.datos {
+    font: {
+        family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        size: 15px;
+        weight: bolder;
+    }
+    color: rgb(13, 14, 14);
+    background-image: url(../Imagenes/Contacto.png);
+}
