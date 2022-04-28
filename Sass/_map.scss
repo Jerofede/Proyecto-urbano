@@ -1,0 +1,11 @@
+$texto:(
+    grande: 60px,
+    mediano: 30px,
+    chico: 12px
+);
+@each $clave, $valor in $texto {
+    .tamañoTexto-#{$clave} {
+        font-size: $valor;
+    }
+    
+}

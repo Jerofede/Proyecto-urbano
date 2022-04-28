@@ -1,0 +1,79 @@
+.empresaInf{
+    img{
+        max-width: 100%;
+    }
+    p{
+        margin-top: 20px;
+        color: black;
+        padding: 5px;
+        font: {
+            family: var(--bs-body-font-family);
+            size: 20px;
+            weight: 600;
+        }
+    }
+}
+.carousel-caption{
+    color: white;
+    font: {
+        family: var(--bs-body-font-family);
+        weight: bold;
+        size: 30px;
+    }
+    h4{
+        font-weight: bold;
+    }
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 90vh;
+    max-width: 100%;
+    filter: brightness(60%);
+    margin: {
+        top: 50px;
+        bottom: 50px;
+    }
+}
+
+.logo { 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.aempresas {
+    color: map-get($estilos, color);
+    text-align:map-get($estilos, posicion);
+    font: {
+        family: var(--bs-body-font-family);
+        size:map-get($estilos, tamañoFuente);
+        weight: 600;
+    }
+}
+
+.empresas {
+    border-radius: 8px;
+    padding: 5px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    img {
+        max-width: 40%;
+        transform: translate(80px, 10px);
+    }
+    img:hover{
+        filter:brightness(25%)
+    }
+    :nth-child(1){
+        grid-column: 1/4;
+        grid-row: 1/3;
+        padding: 10px;
+    }
+}
+.ferrum{
+    transform: translate(0px, 30px);
+}
+.aqua{
+    transform: translate(0px, 40px);
+}
