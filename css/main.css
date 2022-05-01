@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: gray;
+  background-color: #404652;
   margin: 20px;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .navbar {
   font-size: 30px;
-  background-color: black !important;
+  background-color: #212327 !important;
 }
 
 .navbar-nav li {
@@ -199,6 +199,19 @@ footer {
   padding: 40px;
   margin: 50px;
   font-family: 'Indie Flower', cursive;
+}
+
+.proyecto .col {
+  margin: 0px;
+  padding: 5px;
+}
+
+.proyecto .row {
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .contacto {
@@ -318,10 +331,6 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 1px;
-  }
-  .navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.55);
-    border-color: grey;
   }
   .fotoEmpresa img {
     max-width: 100%;
