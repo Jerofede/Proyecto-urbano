@@ -186,10 +186,6 @@ h1 {
   font-weight: 500;
 }
 
-h2 {
-  font-size: 40px;
-}
-
 .conDescrip {
   font-weight: 650;
 }
@@ -307,7 +303,112 @@ h2 {
   .fotoCol {
     width: 350px;
   }
+  .tituloServicio {
+    font-size: 30px;
+  }
+  .servicioslista {
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+  }
   .row {
     display: table-row;
+  }
+  .nav a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 1px;
+  }
+  .fotoEmpresa img {
+    max-width: 100%;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .empresas {
+    padding: 20px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .empresas img {
+    padding: 20px;
+    max-width: 50%;
+  }
+  .ferrum {
+    -webkit-transform: translate(10px, -5px);
+            transform: translate(10px, -5px);
+  }
+  .empr-amigas {
+    text-align: center;
+  }
+  .diseñoSitema {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Diseño h2 {
+    padding: 10px;
+  }
+  .Diseño img {
+    padding: 20px;
+    max-width: 50%;
+  }
+  .Sistema h2 {
+    padding: 10px;
+  }
+  .Sistema img {
+    padding: 20px;
+    max-width: 50%;
+  }
+  .inf {
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+  }
+  .Diseño {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Sistema {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Comienzo Empresa */
+  .titulo {
+    font-size: 2rem;
+  }
+  .fotoCo {
+    width: 275px;
   }
 }

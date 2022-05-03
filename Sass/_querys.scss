@@ -3,9 +3,86 @@
     .fotoCol{
         width: 350px;
     }
+    .tituloServicio{
+        font-size: 30px;
+    }
+    .servicioslista {
+        padding: 20px;
+        margin: 5px;
+        font-size: 15px;
+    }
     .row{
         display: table-row;
     }
-    
-    
+    .nav a{
+        display: flex;
+        flex-direction:row;
+        margin: 1px;
+    }
+
+    .fotoEmpresa img {
+        max-width: 100%;
+        margin-block-start: 20px;
+        margin-block-end: 20px;   
+    }
+    .empresas{
+        padding: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .empresas img {
+        padding: 20px;
+        max-width: 50%;
+    }
+    .ferrum{
+        transform: translate(10px, -5px);
+    }
+    .empr-amigas {
+        text-align: center;
+    }
+    .diseñoSitema{
+        display: flex;
+        
+    }
+    .Diseño h2{
+        padding: 10px;
+    }
+ 
+    .Diseño img{
+        padding: 20px;
+        max-width: 50%;
+    }
+    .Sistema h2{
+        padding: 10px;
+    }
+    .Sistema img{
+        padding: 20px;
+        max-width: 50%;
+    }
+    .inf {
+        font-size: 1rem;
+        padding: 20px;
+        text-align: center;
+    }
+    .Diseño {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Sistema {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+      /* Comienzo Empresa */
+      .titulo {
+        font-size: 2rem;
+    }
+    .fotoCo{
+        width: 275px;
+    }
 }
+
+    
