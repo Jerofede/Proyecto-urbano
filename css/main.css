@@ -361,6 +361,9 @@ h1 {
     display: -ms-flexbox;
     display: flex;
   }
+  .datos {
+    max-width: 100%;
+  }
   .Diseño h2 {
     padding: 10px;
   }
