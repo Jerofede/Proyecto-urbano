@@ -1,10 +1,12 @@
 .empresaInf{
+    background-color: rgb(17, 27, 27);
+    padding: 20px;
     img{
         max-width: 100%;
     }
     p{
         margin-top: 20px;
-        color: black;
+        color: rgb(189, 178, 178);
         padding: 5px;
         font: {
             family: var(--bs-body-font-family);
@@ -13,6 +15,7 @@
         }
     }
 }
+
 .carousel-caption{
     color: white;
     font: {
@@ -42,6 +45,8 @@
 }
 
 .aempresas {
+    background-color: rgb(73, 73, 73);
+    color: black;
     color: map-get($estilos, color);
     text-align:map-get($estilos, posicion);
     font: {
@@ -52,7 +57,7 @@
 }
 
 .empresas {
-    border-radius: 8px;
+    border: 2px;
     padding: 5px;
     width: auto;
     display: grid;

@@ -1,18 +1,15 @@
 .entregadas{
     color: black;
     font: {
-        family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        family: var(--bs-body-font-family);
     }
     background: {
-        size: 50px;
+        size: 120px;
         repeat: repeat-x;
     }
     text-align:center;
-    width: 875px;
-    line-height: 100px;
-    margin: 25px;
-    border: 10px solid rgb(1, 1, 27);
-    padding: 25px;
+    padding: 40px;
+    font-size: 2.5rem;
 }
 
 .texto {
@@ -32,7 +29,19 @@
 }
 .proyecto .row{
     align-items: unset;
-    padding-bottom: 40px;
     padding-top: 40px;
-   
+}
+.proyecto .card{
+    margin: 10px;
+}
+.list-group-item {
+    background-color: #68686b;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    
+}
+.card-body{
+    color: rgb(15, 14, 14);
+    background-color: #68686b;
+    font-weight: bold;
 }

@@ -1,16 +1,30 @@
+
+h1{
+    color: black;
+    font-family:var(--bs-body-font-family);
+    font-weight: 500;
+}
+h2{
+    font-size: 40px;
+}
+.conDescrip{
+    font-weight: 650;
+}
 .servicioslista {
-    background-color: white;
-    padding: 20px 50px;
-    width: 500px;
-    margin: 30px 40px;
+    padding: 5rem;
+    margin: 5rem;
     border: 5px solid black;
+    background-color: #312f62;;
+    color: #f8f9fa8f;
+    font-size: 1.2rem;;
     font: {
-        style: italic;
-        family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        size: 1.2rem;
+        family:var(--bs-body-font-family);
         weight: bolder; 
     }
 }
 .garantia {
-    background-color: black;
-    color: white;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
 }

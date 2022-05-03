@@ -1,26 +1,35 @@
 .col {
     margin: 20px;
+    }
     h4{
      font-size: 2rem;
      padding: 30px;
+     color: black;
+     p{
+         color: black;
+     }   
  }
-
- }
-.historia {
-    font: {
-        family: var(--bs-body-font-family);
-        size: 18px;
-        weight: bolder;
-        
+.historia{
+    color: black;
+    font-family: var(--bs-body-font-family);
+    font-weight: 700;
     }
+
+.h1, h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px;
+    
+
 }
 .titulo {
     font: {
         family: var(--bs-body-font-family);
-        
     }
     text-align:center;
     margin: 30px;
+    
+   
 }
 .fotoCol{
     max-width: 100%;
