@@ -115,6 +115,31 @@ body {
           transform: translate(0px, 40px);
 }
 
+.redes {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.facebook {
+  font-size: 3.5rem;
+  color: #0e0e54;
+  padding-right: 20px;
+}
+
+.instagram {
+  font-size: 3.5rem;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 20px;
+}
+
+.pinterest {
+  font-size: 3.5rem;
+  color: red;
+}
+
 .navbar {
   font-size: 30px;
   background-color: #212327 !important;
@@ -547,5 +572,20 @@ h1 {
   }
   .fotoCo {
     width: 275px;
+  }
+  .garantia {
+    font-size: 1rem;
+  }
+  .facebook {
+    font-size: 2rem;
+  }
+  .instagram {
+    font-size: 2rem;
+  }
+  .pinterest {
+    font-size: 2rem;
+  }
+  footer h5 {
+    font-size: 0.75rem;
   }
 }
