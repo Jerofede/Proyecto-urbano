@@ -187,15 +187,31 @@ h1 {
 }
 
 .conDescrip {
+  text-align: center;
   font-weight: 650;
+  margin: 5rem;
+  padding: 5rem;
+  border: 5px solid black;
+  background-color: #3e4246;
+  color: white;
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+  font-family: var(--bs-body-font-family);
+  font-weight: bolder;
+}
+
+.consText {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 3.5rem;
 }
 
 .servicioslista {
   padding: 5rem;
   margin: 5rem;
   border: 5px solid black;
-  background-color: #312f62;
-  color: #f8f9fa8f;
+  background-color: #3e4246;
+  color: white;
   font-size: 1.2rem;
   font-size: 1.2rem;
   font-family: var(--bs-body-font-family);
@@ -257,6 +273,10 @@ h1 {
   font-weight: bold;
 }
 
+.card {
+  height: 110vh;
+}
+
 .contacto {
   margin: revert;
   font-family: var(--bs-body-font-family);
@@ -286,22 +306,113 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 5% auto;
-  max-width: 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 10px;
+}
+
+.imgcont {
+  width: 80%;
 }
 
 .imput {
   font-size: revert;
 }
 
+@media screen and (max-width: 1024px) {
+  .navbar-nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .empresas :nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    padding: 10px;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+  }
+  .empresas {
+    padding: 30px;
+    width: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+  }
+  .inf {
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+  }
+  .Diseño {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Diseño h2 {
+    padding: 20px;
+  }
+  .Diseño img {
+    padding: 20px;
+    max-width: 70%;
+  }
+  .Sistema {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .Sistema h2 {
+    padding: 20px;
+  }
+  .Sistema img {
+    padding: 20px;
+    max-width: 50%;
+  }
+  .empresas img {
+    max-width: 70%;
+  }
+  .empr-amigas {
+    text-align: center;
+  }
+  .diseñoSistema {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  /* Comienzo Empresa */
+  .titulo {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .fotoCol {
-    width: 350px;
+  .logo {
+    width: 50px;
+    height: 50px;
   }
   .tituloServicio {
     font-size: 30px;
@@ -324,12 +435,37 @@ h1 {
             flex-direction: row;
     margin: 1px;
   }
+  .nav-link.active {
+    font-size: 16px;
+  }
+  .parrafo {
+    text-align: center;
+  }
   .fotoEmpresa img {
     max-width: 100%;
     -webkit-margin-before: 20px;
             margin-block-start: 20px;
     -webkit-margin-after: 20px;
             margin-block-end: 20px;
+  }
+  .otra {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .col {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .historia {
+    margin-bottom: 20px;
+  }
+  h4 {
+    text-align: center;
   }
   .empresas {
     padding: 20px;
@@ -407,7 +543,6 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* Comienzo Empresa */
   .titulo {
     font-size: 2rem;
   }

@@ -66,8 +66,9 @@
 } 
 
 @media screen and (max-width: 768px) {
-    .fotoCol{
-        width: 350px;
+    .logo {
+        width: 50px;
+        height: 50px;
     }
     .tituloServicio{
         font-size: 30px;
@@ -85,11 +86,32 @@
         flex-direction:row;
         margin: 1px;
     }
+    .nav-link.active {
+        font-size: 16px;
+    }
+    .parrafo {
+        text-align: center;
+    }
 
     .fotoEmpresa img {
         max-width: 100%;
         margin-block-start: 20px;
         margin-block-end: 20px;   
+    }
+    .otra {
+        display: flex;
+        flex-direction: column-reverse !important; 
+    }
+    .col {
+        margin: 0 auto;
+        margin-bottom: 20px;
+         
+    }
+    .historia {
+        margin-bottom: 20px;
+    }
+    h4 {
+        text-align: center;
     }
     .empresas{
         padding: 20px;
@@ -151,6 +173,7 @@
     .fotoCo{
         width: 275px;
     }
+   
 }
 
     
