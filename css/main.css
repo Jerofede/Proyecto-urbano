@@ -74,19 +74,19 @@ body {
   font-weight: 600;
 }
 
-.container {
+.conthome {
   border: 2px;
   padding: 5px;
   width: auto;
 }
 
-.container img {
+.conthome img {
   max-width: 60%;
   -webkit-transform: translate(80px, 10px);
           transform: translate(80px, 10px);
 }
 
-.container img:hover {
+.conthome img:hover {
   -webkit-filter: brightness(25%);
           filter: brightness(25%);
 }
