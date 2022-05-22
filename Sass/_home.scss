@@ -45,6 +45,8 @@
 }
 
 .aempresas {
+    padding: 20px;
+    margin: 20px;
     background-color: rgb(73, 73, 73);
     color: black;
     color: map-get($estilos, color);
@@ -56,24 +58,16 @@
     }
 }
 
-.empresas {
+.container {
     border: 2px;
     padding: 5px;
     width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     img {
-        max-width: 40%;
+        max-width: 60%;
         transform: translate(80px, 10px);
     }
     img:hover{
         filter:brightness(25%)
-    }
-    :nth-child(1){
-        grid-column: 1/4;
-        grid-row: 1/3;
-        padding: 10px;
     }
 }
 .ferrum{
@@ -85,6 +79,7 @@
 .redes {
     text-align: right;
     padding-right: 20px;
+    background-color: #393c40;
 }
 .facebook {
     font-size: 3.5rem;
